@@ -1,0 +1,15 @@
+# Laravel & Composer specific files
+/vendor/
+node_modules/
+public/storage
+storage/*.key
+.env
+.phpunit.result.cache
+.php_cs.cache
+
+# Laravel Swoole
+storage/swoole_http_
+
+# IDE & TextEditor files
+/.idea
+/.vscode
